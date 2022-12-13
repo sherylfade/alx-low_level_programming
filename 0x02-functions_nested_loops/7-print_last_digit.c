@@ -8,12 +8,8 @@
 
 int print_last_digit(int n)
 {
-	lastDig = n % 10;
+	int a = -(n % 10);
 
-	while (n >= 10)
-	{
-		n = n / 10;
-	}
-	_putchar("lastDig");
-	return ("lastDig");
+	_putchar(a + '0');
+	return (0);
 }
